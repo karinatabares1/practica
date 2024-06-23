@@ -71,6 +71,7 @@ hr{
     .cajaUno, .cajaDos, .cajaTres {
         width: 260px; 
         margin: 15px 0;
+        height: 380px;
     }
 
     .cajaDos {
