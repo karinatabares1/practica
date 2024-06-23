@@ -68,10 +68,15 @@ hr{
         font-size:23px;
     }
 
-    .cajaUno, .cajaDos, .cajaTres {
+    .cajaUno, .cajaDos {
         width: 260px; 
         margin: 15px 0;
         height: 380px;
+    }
+    .cajaTres{
+        width: 260px; 
+        margin: 15px 0;
+        height: 335px; 
     }
 
     .cajaDos {
