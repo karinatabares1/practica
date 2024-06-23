@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(250, 241, 245);
+    
+}
+.titulo {
+    color: rgb(180, 111, 163);
+    text-align: center;
+}
+.contenedores{
+    display: flex;
+    justify-content: center;
+    margin: 9px;
+}
+#imagenes {
+    max-width: 280px;
+    padding: 2px;
+   
+}
+.cajaUno{
+    height: 380px;
+    width: 290px;
+    background-color: rgb(236, 223, 229);
+    margin: 15px;
+    border: 9px;
+    padding: 9px;
+}
+.cajaDos{
+    height: 380px; /*alto*/
+    width: 290px;
+    background-color: rgb(236, 223, 229);
+    margin: 15px;
+    border: 9px;
+    padding: 9px;
+    margin-top: 220px;
+}
+.cajaTres{
+    height: 380px;
+    width: 290px;
+    background-color: rgb(236, 223, 229);
+    margin: 15px;
+    border: 9px;
+    padding: 8px;
+}
+footer{
+    top:36px;
+    text-align: center;
+}
+hr{
+   border-color: rgb(245, 160, 199);
+    width: 1000px;
+}
+.fin{
+    top: 100px;
+}
+.subtitulo{
+    font-size: 25px;
+    margin: 1px;
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    .contenedores {
+        flex-direction: column;
+        /* para organizar los elementos flexibles verticalmente */
+        align-items: center;
+        
+    }
+    .titulo {
+        font-size:23px;
+    }
+
+    .cajaUno, .cajaDos, .cajaTres {
+        width: 260px; 
+        margin: 15px 0;
+    }
+
+    .cajaDos {
+        margin-top: 15px; /
+    }
+
+    #imagenes {
+        max-width: 100%; 
+    }
+
+    hr{
+    
+    width: 320px;
+     }
+}
